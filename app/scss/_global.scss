@@ -1,0 +1,45 @@
+html,
+body {
+	height: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.body {
+	font-family: 'Akrobat';
+	min-width: 100vw;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 30px;
+	background-color: #E5E5E5;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.main-page,.company-page,.game-page {
+	flex: 1 0 auto;
+}
+
+.footer {
+	flex: 0 0 auto;
+	background: #EFEFEF;
+}
+
+.container {
+	max-width: 1820px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.big-container {
+	max-width: 1950px;
+	margin: 0 auto;
+	padding: 0 15px;
+}

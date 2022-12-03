@@ -1,0 +1,50 @@
+$yellow: #FFEE2F;
+$white: #FAFAFA;
+$red: #CE0002;
+$red-hover: #FF0000;
+$red-active: #A60002;
+$black: #000000;
+$dark-yellow: #938700;
+$yellow-shadow: #F2E33A;
+$grey-icon: #C4B6B6;
+$grey-icon-hover: #DCD3D3;
+$grey-icon-active: #A79898;
+$footer-bg: #EFEFEF;
+$footer-text: #7E7E7E;
+
+%first-title {
+    font-family: 'Zona Pro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 85px;
+    text-transform: uppercase;
+    color: $black;
+}
+
+%second-title {
+    font-family: 'Akrobat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: $black;
+}
+
+%description-text {
+    font-family: 'Akrobat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: $black;
+}
+
+%footer-text {
+    font-family: 'Akrobat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: $footer-text;
+}
