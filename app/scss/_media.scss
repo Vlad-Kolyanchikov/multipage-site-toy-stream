@@ -297,7 +297,8 @@
     .company-page__command-section-social-box,
     .company-page__about-company-column-social-box,
     .career-page__column-social-box,
-    .our-vacancies__column-social-box {
+    .our-vacancies__column-social-box,
+    .vacantion-page__column-social-box {
         display: none;
     }
 
@@ -413,6 +414,23 @@
         padding: 50px 0;
     }
 
+    .form {
+        padding: 50px 0;
+    }
+
+    .form__title {
+        text-align: center;
+        padding: 0;
+    }
+
+    .form__inner {
+        padding: 0;
+        justify-content: center;
+    }
+
+    .form__bottom {
+        flex-direction: column-reverse;
+    }
 }
 
 @media (max-width:550px) {
